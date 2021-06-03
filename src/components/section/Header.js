@@ -2,6 +2,12 @@ import React from "react";
 import HeaderButton from "../layouts/HeaderButton";
 import { header } from "../../profile";
 import Type from "../layouts/Type";
+import FbIcon from "../../icon-images/fb-icon.png";
+import LinkedInIcon from "../../icon-images/linkedin-icon.png";
+import GitHubIcon from "../../icon-images/github-icon.png";
+import GmailIcon from "../../icon-images/gmail-icon.png";
+import InstagramIcon from "../../icon-images/instagram-icon.png";
+// import { Link } from "react-router-dom";
 
 const Header = () => {
   const scrollTo = () => {
@@ -39,6 +45,48 @@ const Header = () => {
         {/* <p className="line-1 anim-typewriter">and this is my portfolio... </p> */}
         <div className="line-1">
           <Type />
+          <div>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/nitishsoman13/"
+            >
+              <img src={LinkedInIcon} alt="LinkedIn-Icon" height="35" />
+            </a>
+
+            <a target="_blank" href="https://github.com/nitish1310">
+              <img
+                className="social-icon"
+                src={GitHubIcon}
+                alt="GitHub-Icon"
+                height="35"
+              />
+            </a>
+
+            <a href="mailto:nitish.soman13@gmail.com">
+              <img
+                className="social-icon"
+                src={GmailIcon}
+                alt="Gmail-Icon"
+                height="35"
+              />
+            </a>
+            <a target="_blank" href="https://www.facebook.com/nitish.soman.1/">
+              <img
+                className="social-icon"
+                src={FbIcon}
+                alt="FB-Icon"
+                height="35"
+              />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/nitish.soman13/">
+              <img
+                className="social-icon"
+                src={InstagramIcon}
+                alt="Instagram-Icon"
+                height="35"
+              />
+            </a>
+          </div>
         </div>
         <label className="switch">
           <input id="mode-switch" onClick={toggleDarkMode} type="checkbox" />

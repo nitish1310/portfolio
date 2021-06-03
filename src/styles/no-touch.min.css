@@ -178,6 +178,9 @@ button:focus {
   overflow: hidden;
   cursor: pointer !important;
 }
+.social-icon {
+  padding-left: 10px;
+}
 .img-pro {
   height: 100%;
   width: 100%;

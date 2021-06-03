@@ -83,45 +83,78 @@ const projects = [
     // Add image in './styles/images.css' in #project1
     id: "project1",
     name: "Amazon Clone",
-    skills: [
-      "React.js, Firebase, Material UI, Stripe(payment gateway),HTML, CSS, JS",
-    ],
+    skills: ["React, Firebase, Material UI, Stripe"],
     url: "https://clone-fcc92.web.app/",
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Google-Clone",
+    skills: ["React, Firebase, Material UI, Router"],
+    url: "https://clone-e922e.web.app/",
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Project 3",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Netflix-Clone",
+    skills: ["React, Firebase, Material UI"],
+    url: "https://netflix-clone-92e7e.web.app/",
   },
   {
     // Add image in './styles/images.css' in #project4
     id: "project4",
-    name: "Project 4",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Slack-Clone",
+    skills: ["React, Firebase, Material UI, Router"],
+    url: "https://slack-clone-1c1ea.web.app/",
   },
   {
     // Add image in './styles/images.css' in #project5
     id: "project5",
-    name: "Project 5",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Personalized-email-access-service-based-on-voice-response",
+    skills: ["React, Firebase, Gmail-API"],
+    url: "https://github.com/nitish1310/Personalized-email-access-service-based-on-voice-response",
   },
   {
     // Add image in './styles/images.css' in #project6
     id: "project6",
-    name: "Project 6",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Analyzing Uber Movement Dataset",
+    skills: ["AWS, Hadoop  MapReduce"],
+    url: "https://github.com/nitish1310/Bigdata-project",
+  },
+  {
+    // Add image in './styles/images.css' in #project6
+    id: "project7",
+    name: "Autonomous Vehicle using Data Mining",
+    skills: ["Data Mining, Deep Learning"],
+    url: "https://github.com/nitish1310/Bigdata-project",
+  },
+  {
+    // Add image in './styles/images.css' in #project6
+    id: "project8",
+    name: "Memories App",
+    skills: ["MERN Stack"],
+    url: "https://github.com/nitish1310/Memories-App",
+  },
+  {
+    // Add image in './styles/images.css' in #project6
+    id: "project9",
+    name: "NextJS Landing Page",
+    skills: ["React, NextJs, Firebase, ThemeUI"],
+    url: "https://nextjs-landing-page.web.app/",
+  },
+  {
+    // Add image in './styles/images.css' in #project6
+    id: "project10",
+    name: "Unichat Application",
+    skills: ["React, Firebase, Chat Engine"],
+    url: "https://unichat-application.web.app/",
+  },
+  {
+    // Add image in './styles/images.css' in #project6
+    id: "project11",
+    name: "Signal Clone App",
+    skills: ["React Native, Expo, Firebase"],
+    url: "https://signal-clone-223b4.web.app/",
   },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
